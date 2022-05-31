@@ -40,33 +40,7 @@
             ';
         }
 
-        /*
 
-        <!-- section droite : menu (liens) -->
-        <div class="top-bar-right text-left" >
-            <ul class="dropdown menu button-group" data-dropdown-menu style="padding-right: 75px">
-
-                <!-- exemple lien actif (encadré) -->
-                <li class=" active"><a href="/index.php">lien actif</a></li>
-
-                <!-- exemple lien classique (non-encadré) -->
-                <li><a href="/cv.html">lien</a></li>
-
-                <!-- exemple liste déroulante de liens -->
-                <li>
-                    <a href="" onclick="location.href='';">liste déroulante</a>
-                    <ul class="menu">
-                        <li><a href="" onclick="location.href=''">lien 1</a></li>
-                        <li><a href="" onclick="location.href=''">lien 2</a></li>
-                        <li><a href="" onclick="location.href=''">lien 3</a></li>
-                        <li><a href="" onclick="location.href=''">lien 4</a></li>
-                    </ul>
-                </li>
-
-            </ul>
-        </div>
-
- */
 
         ?>
     </div>

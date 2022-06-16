@@ -8,7 +8,7 @@
                 <div class="grid-x">
                     <div class="cell small-8 large-offset-2 text-center">
                         <!-- titre -->
-                        <h3><b><u>Page de connexion</u></b></h3>
+                        <h3><b><u>Infos Série</u></b></h3>
                     </div>
                 </div>
 

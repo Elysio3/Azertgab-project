@@ -19,10 +19,28 @@
 
 <!-- Début de la top-bar (menu) -->
 <header>
-    <div class="top-bar" style="position: sticky; top:0; width: 100%">
+    <div class="top-bar" style="position: sticky; top:0; width: 100%; z-index: 100">
         <!-- section gauche : logo -->
         <div class="top-bar-left text-left">
             <img style="height:75px; width: auto" src="images/logo.jpg" alt="logo site">
+
+            <ul class="dropdown menu button-group" data-dropdown-menu style="padding-right: 75px">
+
+                <li>
+                    Menu
+                    <ul class="menu">
+                        <li><a href="?page=espace_admin" onclick="location.href='?page=espace_admin';">Espace admin</a></li>
+                        <li><a href="?page=infos_compte" onclick="location.href='?page=infos_compte';">Mon compte</a></li>
+                        <li><a href="?page=infos_serie" onclick="location.href='?page=infos_serie';">infos serie (tmp)</a></li>
+                        <li><a href="?page=list_search_result" onclick="location.href='?page=list_search_result';">Résultat recherche (liste) (tmp)</a></li>
+                        <li><a href="?page=login" onclick="location.href='?page=login';">Se connecter (tmp)</a></li>
+                        <li><a href="?page=register" onclick="location.href='?page=register';">S'enregistrer</a></li>
+                        <li><a href="?page=nouvelles_sorties" onclick="location.href='?page=nouvelles_sorties';">nouvelles_sorties</a></li>
+                        <li><a href="?page=search_result" onclick="location.href='?page=search_result';">search_result</a></li>
+                    </ul>
+                </li>
+
+            </ul>
         </div>
 
         <?php /*
@@ -40,9 +58,13 @@
             ';
         }
 
-
-
         ?>
+
+
+
+
+
+
     </div>
 </header>
 <!-- Fin de la top-bar (menu) -->
